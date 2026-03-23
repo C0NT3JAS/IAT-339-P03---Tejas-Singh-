@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, p, label, ol, ul, a, button, input {
+    font-family: "Lexend";
+}
+
+body {
+   background-color: rgb(37, 49, 92);
+}
+
+h1, h2 {
+    color:  rgb(67, 184, 184);
+}
+
+p, h3, h4, h5, ul, ol, label {
+    color: white;
+}
+
+a {
+    color: rgb(194, 69, 76);
+}
