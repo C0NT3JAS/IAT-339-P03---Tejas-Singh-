@@ -17,3 +17,14 @@ p, h3, h4, h5, ul, ol, label {
 a {
     color: rgb(194, 69, 76);
 }
+
+.titleHeaders {
+    text-align: center;
+}
+
+nav a{
+  display: inline-block;
+  border: 2px solid;
+  padding: 8px;
+  color: #9caeb6;
+  }
