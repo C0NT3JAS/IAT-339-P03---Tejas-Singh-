@@ -1,3 +1,7 @@
+body {
+    padding: 1rem;
+}
+
 h1, h2, h3, h4, h5, p, label, ol, ul, a, button, input {
     font-family: "Lexend";
 }
@@ -22,9 +26,173 @@ a {
     text-align: center;
 }
 
+
+
 nav a{
   display: inline-block;
   border: 2px solid;
   padding: 8px;
-  color: #9caeb6;
+  margin: 0.5rem;
+  color:antiquewhite;
   }
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid;
+    border-color: antiquewhite;
+
+  }
+
+  /* img {
+    display: flex;
+    align-content: center;
+    max-width: 20%;
+    margin: auto;
+  } */
+
+#PosterDrafts {
+    display: flex;
+    align-content: center;
+    max-width: 70%;
+    padding: 1rem;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: antiquewhite;
+    margin: auto;
+  }
+
+#PosterFinal {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    max-width: 30%;
+    padding: 1rem;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: antiquewhite;
+  }
+
+  @media (max-width: 900px)
+  {
+    #PosterFinal {
+        max-height: 10%;
+    }
+  }
+
+
+  .description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  #CodingVideo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1rem;
+    border-color: antiquewhite;
+  }
+
+
+  /*NOTE: Used this tutorial for assistance on displaying the images: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 20%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .column img {
+    max-width: 100%;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: antiquewhite;
+    padding: 1rem;
+  }
+
+  #bioTemplate {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: larger;
+
+    border-bottom: 1px solid;
+    border-color: antiquewhite;
+    padding-bottom: 1rem;
+  }
+
+  .styleguideItem {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: larger;
+
+    border-bottom: 1px solid;
+    border-color: antiquewhite;
+    padding-bottom: 1rem;
+  }
+
+  #formTemplate {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: larger;
+
+    border-bottom: 1px solid;
+    border-color: antiquewhite;
+    padding-bottom: 1rem;
+  }
+
+  #processAnalysisTemplate {
+    border-bottom: 1px solid;
+    border-color: antiquewhite;
+    padding-bottom: 1rem;
+  }
+
+  footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    background-color:rgba(96, 77, 201, 0.623);
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer a {
+    margin: 1rem;
+    color: rgb(22, 182, 182);
+  }
+
