@@ -22,6 +22,10 @@ a {
     color: rgb(194, 69, 76);
 }
 
+a:hover {
+    color: rgb(67, 184, 184);
+}
+
 .titleHeaders {
     text-align: center;
 }
@@ -34,6 +38,11 @@ nav a{
   padding: 8px;
   margin: 0.5rem;
   color:antiquewhite;
+  }
+
+  nav a:hover {
+    background-color: antiquewhite;
+    color: black;
   }
 
 nav {
@@ -179,12 +188,13 @@ nav {
     padding-bottom: 1rem;
   }
 
+  /*Tutorial Used: https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
   footer {
     display: flex;
     position: fixed;
     bottom: 0%;
     left: 0%;
-    background-color:rgba(96, 77, 201, 0.623);
+    background-color:rgb(96, 77, 201);
     width: 100%;
     flex-direction: row;
     text-align: center;
@@ -194,5 +204,13 @@ nav {
   footer a {
     margin: 1rem;
     color: rgb(22, 182, 182);
+    padding: 5px;
+    border: 2px solid;
+    border-color: rgb(22, 182, 182); 
+  }
+
+  footer a:hover {
+    background-color: rgb(22, 182, 182);
+    color: rgb(96, 77, 201);
   }
 
